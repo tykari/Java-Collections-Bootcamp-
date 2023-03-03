@@ -1,11 +1,16 @@
 package com.tykari;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class ArrayExamples {
 
     public static void main (String args []){
 
-        System.out.println(Arrays.asList("hello","my","name","is","kortyel","tykari"));
+        List wordlist = Arrays.asList("hello","my","i","am","a","list");
+        System.out.println(wordlist);
+
+        String[] words = {"hello", "my", "i", "am", "a", "list"};
+        System.out.println(words);
     }
 }
